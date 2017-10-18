@@ -183,7 +183,7 @@ def update_site():
 						} else if (days > 2) {
 							msg = `${Math.floor(days)} days ago on`;
 						} else if (hours >= 1 && hours < 2) {
-						    msg = `${hours} hour ago on`;
+						    msg = `${Math.floor(hours)} hour ago on`;
 						} else if (hours > 1 && hours < 24) {
 						    msg = `${Math.floor(hours)} hours ago on`;
 						} else if (minutes >= 1 && minutes < 2) {
